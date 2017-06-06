@@ -1,3 +1,25 @@
+// single line comment
+
+/* block line comment
+some text
+*/
+
+setTimeout(function() {
+  location.href = 'rocket.html';
+}, 2000);
+
+var doCoolStuff = function () {
+  var currentClassName = document.getElementById('cool').className;
+
+  // changing class name
+  if (currentClassName == 'cool') {
+    document.getElementById('cool').className = 'cool red';
+  } else {
+    document.getElementById('cool').className = 'cool';
+  }
+
+};
+
 var sayMyName = function (name) {
   alert('My Name is: ' +name);
 };
